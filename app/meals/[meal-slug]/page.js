@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-const SharePage = () => {
+const MealDetails = () => {
   return (
     <main>
-      <h1 style={{ color: "white", textAlign: "center" }}>Share Page</h1>
+      <h1 style={{ color: "white", textAlign: "center" }}>Meal Details Page</h1>
 
       <p>
         <Link href="/meals">Go back</Link>
@@ -15,4 +15,4 @@ const SharePage = () => {
   );
 };
 
-export default SharePage;
+export default MealDetails;
